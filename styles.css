@@ -67,7 +67,7 @@ ul {
 .cta-header {
     font-size: 48px;
     color: #f9faf8;
-    font-weight: 900;
+    font-weight: bold;
 }
 
 .cta-description {
@@ -93,4 +93,48 @@ button.sign-up {
     justify-content: center;
     align-items: center;
     color: white;
+}
+
+/* Information Section */
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+    gap: 50px;
+    padding: 40px 200px 0px;
+}
+
+.information-header {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: bold;
+}
+
+.information-columns{
+    display: flex;
+    justify-content: space-between;
+    align-self: stretch;
+    padding: 0px 250px 0px;
+}
+
+.information-columns div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.placeholder-card {
+    border: 4px solid blue;
+    border-radius: 20px;
+    height: 200px;
+    width: 200px;
+}
+
+.information-columns p {
+    width: 200px;
+    text-align: center;
 }
