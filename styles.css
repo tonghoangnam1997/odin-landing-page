@@ -125,6 +125,7 @@ button.sign-up {
     align-items: center;
     justify-content: center;
     gap: 10px;
+    flex-wrap: wrap;
 }
 
 .placeholder-card {
@@ -162,4 +163,54 @@ p.author-name {
     font-size: 24px;
     font-weight: bold;
     align-self: flex-end;
+}
+
+/* Final CTA Section */
+
+.final-cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.cta-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40px;
+    height: 180px;
+    width: 1200px;
+    border-radius: 8px;
+    background-color: #3882f6;
+}
+
+.final-cta-texts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 5px;
+}
+
+.final-cta-texts h3 {
+    color: #e5e7eb;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.final-cta-texts p {
+    color: #e5e7eb;
+    font-size: 20px;
+}
+
+button.final-cta-button {
+    width: 180px;
+    height: 50px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #e5e7eb;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 10px;
 }
